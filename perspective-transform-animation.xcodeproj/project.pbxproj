@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F870A7DF0E7E8EC8C2FFDC3 /* Pods_perspective_transform_animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176975A8C8F7FE320EE0C49 /* Pods_perspective_transform_animation.framework */; };
+		9599955729DA6AA600E038EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599955629DA6AA600E038EF /* AppDelegate.swift */; };
+		9599955929DA6AA600E038EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599955829DA6AA600E038EF /* SceneDelegate.swift */; };
+		9599955B29DA6AA700E038EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599955A29DA6AA600E038EF /* ViewController.swift */; };
+		9599955E29DA6AA700E038EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9599955C29DA6AA700E038EF /* Main.storyboard */; };
+		9599956029DA6AA800E038EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9599955F29DA6AA800E038EF /* Assets.xcassets */; };
+		9599956329DA6AA800E038EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9599956129DA6AA800E038EF /* LaunchScreen.storyboard */; };
+		9599956B29DA6B5C00E038EF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599956A29DA6B5C00E038EF /* CameraViewController.swift */; };
+		9599956D29DA6C6D00E038EF /* CameraContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599956C29DA6C6D00E038EF /* CameraContentView.swift */; };
+		9599956F29DA6CF400E038EF /* CameraControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9599956E29DA6CF400E038EF /* CameraControlView.swift */; };
+		9599957129DA6CF900E038EF /* CameraControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9599957029DA6CF900E038EF /* CameraControlView.xib */; };
+		9599957929DA710300E038EF /* OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9599957829DA710300E038EF /* OpenCV.mm */; };
+		9599957D29DA71D900E038EF /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9599957B29DA71D900E038EF /* UIView+Genie.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F8477387F41C95CAC21BB3B /* Pods-perspective-transform-animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-perspective-transform-animation.debug.xcconfig"; path = "Target Support Files/Pods-perspective-transform-animation/Pods-perspective-transform-animation.debug.xcconfig"; sourceTree = "<group>"; };
+		309B14E3755B59FB9777010F /* Pods-perspective-transform-animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-perspective-transform-animation.release.xcconfig"; path = "Target Support Files/Pods-perspective-transform-animation/Pods-perspective-transform-animation.release.xcconfig"; sourceTree = "<group>"; };
+		9599955329DA6AA600E038EF /* perspective-transform-animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "perspective-transform-animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9599955629DA6AA600E038EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9599955829DA6AA600E038EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9599955A29DA6AA600E038EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9599955D29DA6AA700E038EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9599955F29DA6AA800E038EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9599956229DA6AA800E038EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9599956429DA6AA800E038EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9599956A29DA6B5C00E038EF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9599956C29DA6C6D00E038EF /* CameraContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraContentView.swift; sourceTree = "<group>"; };
+		9599956E29DA6CF400E038EF /* CameraControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControlView.swift; sourceTree = "<group>"; };
+		9599957029DA6CF900E038EF /* CameraControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraControlView.xib; sourceTree = "<group>"; };
+		9599957329DA70F700E038EF /* perspective-transform-animation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "perspective-transform-animation-Bridging-Header.h"; sourceTree = "<group>"; };
+		9599957729DA710300E038EF /* OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCV.h; sourceTree = "<group>"; };
+		9599957829DA710300E038EF /* OpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCV.mm; sourceTree = "<group>"; };
+		9599957B29DA71D900E038EF /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		9599957C29DA71D900E038EF /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		A176975A8C8F7FE320EE0C49 /* Pods_perspective_transform_animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_perspective_transform_animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9599955029DA6AA600E038EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F870A7DF0E7E8EC8C2FFDC3 /* Pods_perspective_transform_animation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9599954A29DA6AA600E038EF = {
+			isa = PBXGroup;
+			children = (
+				9599955529DA6AA600E038EF /* perspective-transform-animation */,
+				9599955429DA6AA600E038EF /* Products */,
+				E3151172A90117B972C11C2A /* Pods */,
+				96D7E43890B2501A840786B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9599955429DA6AA600E038EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9599955329DA6AA600E038EF /* perspective-transform-animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9599955529DA6AA600E038EF /* perspective-transform-animation */ = {
+			isa = PBXGroup;
+			children = (
+				9599957A29DA71D900E038EF /* Genie */,
+				9599957229DA70D400E038EF /* opencv */,
+				9599955629DA6AA600E038EF /* AppDelegate.swift */,
+				9599955829DA6AA600E038EF /* SceneDelegate.swift */,
+				9599955A29DA6AA600E038EF /* ViewController.swift */,
+				9599956A29DA6B5C00E038EF /* CameraViewController.swift */,
+				9599956C29DA6C6D00E038EF /* CameraContentView.swift */,
+				9599956E29DA6CF400E038EF /* CameraControlView.swift */,
+				9599957029DA6CF900E038EF /* CameraControlView.xib */,
+				9599955C29DA6AA700E038EF /* Main.storyboard */,
+				9599955F29DA6AA800E038EF /* Assets.xcassets */,
+				9599956129DA6AA800E038EF /* LaunchScreen.storyboard */,
+				9599956429DA6AA800E038EF /* Info.plist */,
+				9599957329DA70F700E038EF /* perspective-transform-animation-Bridging-Header.h */,
+			);
+			path = "perspective-transform-animation";
+			sourceTree = "<group>";
+		};
+		9599957229DA70D400E038EF /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				9599957729DA710300E038EF /* OpenCV.h */,
+				9599957829DA710300E038EF /* OpenCV.mm */,
+			);
+			path = opencv;
+			sourceTree = "<group>";
+		};
+		9599957A29DA71D900E038EF /* Genie */ = {
+			isa = PBXGroup;
+			children = (
+				9599957B29DA71D900E038EF /* UIView+Genie.m */,
+				9599957C29DA71D900E038EF /* UIView+Genie.h */,
+			);
+			path = Genie;
+			sourceTree = "<group>";
+		};
+		96D7E43890B2501A840786B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A176975A8C8F7FE320EE0C49 /* Pods_perspective_transform_animation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3151172A90117B972C11C2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8477387F41C95CAC21BB3B /* Pods-perspective-transform-animation.debug.xcconfig */,
+				309B14E3755B59FB9777010F /* Pods-perspective-transform-animation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9599955229DA6AA600E038EF /* perspective-transform-animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9599956729DA6AA800E038EF /* Build configuration list for PBXNativeTarget "perspective-transform-animation" */;
+			buildPhases = (
+				BB8A62B1CA3107C91ABC6086 /* [CP] Check Pods Manifest.lock */,
+				9599954F29DA6AA600E038EF /* Sources */,
+				9599955029DA6AA600E038EF /* Frameworks */,
+				9599955129DA6AA600E038EF /* Resources */,
+				FE8F7A5D864247F8DD4385C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "perspective-transform-animation";
+			productName = "perspective-transform-animation";
+			productReference = 9599955329DA6AA600E038EF /* perspective-transform-animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9599954B29DA6AA600E038EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9599955229DA6AA600E038EF = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 9599954E29DA6AA600E038EF /* Build configuration list for PBXProject "perspective-transform-animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9599954A29DA6AA600E038EF;
+			productRefGroup = 9599955429DA6AA600E038EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9599955229DA6AA600E038EF /* perspective-transform-animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9599955129DA6AA600E038EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9599956329DA6AA800E038EF /* LaunchScreen.storyboard in Resources */,
+				9599956029DA6AA800E038EF /* Assets.xcassets in Resources */,
+				9599955E29DA6AA700E038EF /* Main.storyboard in Resources */,
+				9599957129DA6CF900E038EF /* CameraControlView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB8A62B1CA3107C91ABC6086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-perspective-transform-animation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8F7A5D864247F8DD4385C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-perspective-transform-animation/Pods-perspective-transform-animation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-perspective-transform-animation/Pods-perspective-transform-animation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-perspective-transform-animation/Pods-perspective-transform-animation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9599954F29DA6AA600E038EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9599956D29DA6C6D00E038EF /* CameraContentView.swift in Sources */,
+				9599955B29DA6AA700E038EF /* ViewController.swift in Sources */,
+				9599956B29DA6B5C00E038EF /* CameraViewController.swift in Sources */,
+				9599955729DA6AA600E038EF /* AppDelegate.swift in Sources */,
+				9599955929DA6AA600E038EF /* SceneDelegate.swift in Sources */,
+				9599957D29DA71D900E038EF /* UIView+Genie.m in Sources */,
+				9599956F29DA6CF400E038EF /* CameraControlView.swift in Sources */,
+				9599957929DA710300E038EF /* OpenCV.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9599955C29DA6AA700E038EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9599955D29DA6AA700E038EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9599956129DA6AA800E038EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9599956229DA6AA800E038EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9599956529DA6AA800E038EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9599956629DA6AA800E038EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9599956829DA6AA800E038EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8477387F41C95CAC21BB3B /* Pods-perspective-transform-animation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SWPDXB868;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "perspective-transform-animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.imh.perspective-transform-animation.perspective-transform-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "perspective-transform-animation/perspective-transform-animation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9599956929DA6AA800E038EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309B14E3755B59FB9777010F /* Pods-perspective-transform-animation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SWPDXB868;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "perspective-transform-animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.imh.perspective-transform-animation.perspective-transform-animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "perspective-transform-animation/perspective-transform-animation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9599954E29DA6AA600E038EF /* Build configuration list for PBXProject "perspective-transform-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9599956529DA6AA800E038EF /* Debug */,
+				9599956629DA6AA800E038EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9599956729DA6AA800E038EF /* Build configuration list for PBXNativeTarget "perspective-transform-animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9599956829DA6AA800E038EF /* Debug */,
+				9599956929DA6AA800E038EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9599954B29DA6AA600E038EF /* Project object */;
+}
